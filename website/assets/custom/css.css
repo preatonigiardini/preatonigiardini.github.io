@@ -6,3 +6,17 @@ a.custom-activemenu:hover {
   color: #009452 !important;
 }
 
+.navbar {
+  background: transparent !important;
+  border-bottom: 0px solid transparent !important;
+}
+
+.navbar-short {
+  background: linear-gradient(180deg, rgba(255,255,255,1) 80%, rgba(255,255,255,0) 100%) !important;
+  border-bottom: 0px solid transparent !important;
+  height: 80px !important;
+}
+
+.navbar-short .container {
+  margin-top: 0;
+}
