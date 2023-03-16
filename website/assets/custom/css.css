@@ -29,3 +29,14 @@ body {
 section:not(.footer3):not(.info1) {
   background: rgba(255, 255, 255, 0.7) !important;
 }
+
+#credits {
+  display: flex;
+  margin-top: 50px;
+}
+
+.footer-credits {
+  margin: 20px;
+  opacity: 0.1;
+  color: white;
+}
