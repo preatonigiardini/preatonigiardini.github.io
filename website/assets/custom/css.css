@@ -11,7 +11,7 @@ a.custom-activemenu:hover {
   border-bottom: 0px solid transparent !important;
 }
 
-.navbar-short {
+.navbar-short:not(.opened) {
   background: linear-gradient(180deg, rgba(255,255,255,1) 80%, rgba(255,255,255,0) 100%) !important;
   border-bottom: 0px solid transparent !important;
   height: 80px !important;
