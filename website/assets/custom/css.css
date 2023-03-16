@@ -41,6 +41,18 @@ section:not(.footer3):not(.info1) {
   color: white;
 }
 
+.carousel-caption {
+  display: block !important;
+  padding: 0 !important;
+  bottom: 0 !important;
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel-caption {
+    bottom: 50px !important;
+  }
+}
+
 .carousel-caption h5 {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
